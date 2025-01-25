@@ -9,11 +9,6 @@
   <body>
     <header class="header">
       <h1>WebFusion</h1>
-      <form action="">
-        <label for="search-bar">Search</label>
-        <input type="search" id="search-bar" />
-        <button>Go</button>
-      </form>
       <nav class="navbar">
         <li><a href="./index.html" class="links">Home</a></li>
         <li><a href="./best-seller.html" class="links">Best Sellers</a></li>
@@ -22,6 +17,12 @@
           <a href="./special-discounts.html" class="links">Special Discounts</a>
         </li>
       </nav>
+      <div class="search-bar">
+        <form action="">
+          <label for="search-bar">Search</label>
+          <input type="search" id="search-bar" />
+        </form>
+      </div>
     </header>
     <main>
       <section class="first-section">
@@ -39,8 +40,8 @@
           <img src="./image/best-seller.jpg" alt="" />
           <h3>Best Sellers</h3>
           <p>
-            Explore our customers' favorite picks. Don't miss out on these
-            best-sellers!
+            Explore our customers' favorite picks. Don't miss out on these best
+            - sellers offers!
           </p>
           <a href="./best-seller.html">See</a>
         </div>
@@ -65,26 +66,33 @@
       </section>
     </main>
     <footer>
-      <div class="name">WebFusion</div>
       <div class="parent">
-        <div class="social">
-          <a href="#"
-            ><img src="./image/instagram.png" alt="instagram-image" /></a
-          ><a href="#"
-            ><img src="./image/facebook.png" alt="facebook-image" id="not" /></a
-          ><a href="#"><img src="./image/twitter.png" alt="twitter-image" /></a>
-        </div>
-        <div class="footer-links">
-          <a href="#">About Us</a>
-          <a href="#">Contact Us</a>
-          <a href="#">Support</a>
-        </div>
-        <div class="sub">
-          <form action="">
-            <label for="email">Subscribe to WebFusion</label>
-            <input type="email" id="email" placeholder="Enter Your Email" />
-            <button>Submit</button>
-          </form>
+        <div class="name">WebFusion</div>
+        <div class="social-parent">
+          <div class="social size">
+            <a href="#"
+              ><img src="./image/instagram.png" alt="instagram-image" /></a
+            ><a href="#"
+              ><img
+                src="./image/facebook.png"
+                alt="facebook-image"
+                id="not" /></a
+            ><a href="#"
+              ><img src="./image/twitter.png" alt="twitter-image"
+            /></a>
+          </div>
+          <div class="footer-links size">
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Support</a>
+          </div>
+          <div class="sub size">
+            <form action="">
+              <label for="email">Subscribe to WebFusion</label>
+              <input type="email" id="email" placeholder="Enter Your Email" />
+              <button>Submit</button>
+            </form>
+          </div>
         </div>
       </div>
       <div class="copy"><p>&copy; 2025 WebFusion.com</p></div>
